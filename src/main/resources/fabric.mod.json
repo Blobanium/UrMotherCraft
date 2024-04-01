@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "urmothercraft",
+  "version": "${version}",
+  "name": "UrMotherCraft",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Kameren/UrMotherCraft"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "buzz.blobanium.urmothercraft.UrMotherCraft"
+    ]
+  },
+  "mixins": [
+    "urmothercraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

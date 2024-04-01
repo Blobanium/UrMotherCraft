@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "buzz.blobanium.urmothercraft.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClickableWidgetMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MultiplayerWarningScreenMixin"
+  ]
+}
